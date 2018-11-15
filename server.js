@@ -40,7 +40,7 @@ server.listen(PORT);
 
 // keep app alive on heroku-- since heroku sleeps all apps with 1 hour of inactivity!
 var http = require("http");
-URL_TO_PING = "https://calsnap.herokuapp.com/"
+URL_TO_PING = "http://calsnap.herokuapp.com/"
 setInterval(function () {
     console.log(`pinging ourselves now on: ${URL_TO_PING}`)
     http.get(URL_TO_PING);
