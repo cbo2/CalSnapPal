@@ -1,0 +1,17 @@
+{
+  "name": "CalSnapPal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cbo2/CalSnapPal.git",
+  "author": "Craig Bomba <talk2cbo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http": "^0.0.0",
+    "mongoose": "^5.3.9",
+    "node": "^11.0.0",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.1.1"
+  }
+}
