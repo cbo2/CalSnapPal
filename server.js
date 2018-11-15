@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/CalSnap"
 // Connect to the Mongo DB
-mongoose.connect(MONGODB_URI);
+// mongoose.connect(MONGODB_URI);
 
 // Add routes, both API and view
 //app.use(routes);
